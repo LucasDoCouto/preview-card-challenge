@@ -4,3 +4,40 @@
     box-sizing: border-box;
     font-family: "Outfit";
 }
+
+body{
+    background-color: #0D1A2D;
+}
+
+main{
+    width: 500px;
+    background-color: #15273F;
+}
+
+p{
+    color: #93A9CE;
+}
+
+span{
+    color: #93A9CE;
+}
+
+h1{
+    color: white;
+}
+
+.price{
+    color: #00FEFB;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+  }
+
+.avatar {
+    width: 100%;
+    height: auto;
+    max-width: 30px;
+}

@@ -6,12 +6,33 @@
 }
 
 body{
-    background-color: #0D1A2D;
+    background-color: hsl(217, 54%, 11%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+
 }
 
 main{
-    width: 500px;
+    max-width: 350px;
     background-color: #15273F;
+    border-radius: 1rem;
+    padding: 1.5rem;
+}
+
+main img{
+    max-width: 300px;
+    border-radius: 0.5rem;
+}
+
+main section{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
 }
 
 p{
@@ -22,22 +43,72 @@ span{
     color: #93A9CE;
 }
 
-h1{
+section h1{
     color: white;
+    margin: 1rem 0 1rem 0;
 }
 
-.price{
-    color: #00FEFB;
+.description{
+    margin: 0 0 1.4rem 0;
+}
+
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 50%;
+}
+
+.priceSection{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: row;
+}
+
+.timeSection{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    flex-direction: row;
+}
+
+
+.price p{
+    color: hsl(178, 100%, 50%);
 }
 
 .responsive {
     width: 100%;
     height: auto;
     max-width: 300px;
-  }
+}
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ethIcon{
+    margin-right: 8px;
+}
+
+.clockIcon{
+    margin-right: 8px;
+}
+
+.creator{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: row;
+}
+
+.creatorName a{
+    color: white;
+}
 .avatar {
-    width: 100%;
-    height: auto;
     max-width: 30px;
 }

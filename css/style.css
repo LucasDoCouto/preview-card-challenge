@@ -109,6 +109,10 @@ section h1{
 .creatorName a{
     color: white;
 }
+
 .avatar {
     max-width: 30px;
+    border: 1.3pt solid;
+    border-color: white;
+    border-radius: 100%;
 }

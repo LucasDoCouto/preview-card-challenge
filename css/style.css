@@ -5,6 +5,8 @@
     font-family: "Outfit";
 }
 
+/* body */
+
 body{
     background-color: hsl(217, 54%, 11%);
     width: 100%;
@@ -15,6 +17,16 @@ body{
     padding: 1rem;
 
 }
+
+body p{
+    color: #93A9CE;
+}
+
+body a{
+    color: white;
+}
+
+/* card NFT */
 
 main{
     max-width: 350px;
@@ -33,10 +45,6 @@ main section{
     align-items: left;
     justify-content: left;
     flex-direction: column;
-}
-
-p{
-    color: #93A9CE;
 }
 
 span{
@@ -104,6 +112,7 @@ section h1{
     align-items: left;
     justify-content: left;
     flex-direction: row;
+    margin: 3vh 0 0 0;
 }
 
 .creatorName a{
@@ -115,4 +124,5 @@ section h1{
     border: 1.3pt solid;
     border-color: white;
     border-radius: 100%;
+    margin: 0 2vh 0 0;
 }

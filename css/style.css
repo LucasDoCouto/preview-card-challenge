@@ -24,6 +24,11 @@ body p{
 
 body a{
     color: white;
+    text-decoration: none;
+}
+
+body a:hover{
+    color: hsl(178, 100%, 50%);
 }
 
 /* card NFT */
@@ -63,14 +68,15 @@ main img{
     border-radius: 0.5rem;
     opacity: 0;
     transition: .5s ease;
-    background-color: #008CBA;
+    background-color: transparent;
+    background-image: url(/images/hover-bg.png)
 }
   
 .container:hover .overlay {
-    opacity: 0.5;
+    opacity: 1;
 }
-  
-.text {
+
+.overlayContent {
     color: white;
     font-size: 20px;
     position: absolute;
@@ -80,6 +86,7 @@ main img{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+    opacity: 1;
 }
 
 main section{

@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Outfit";
+    font-weight: 400;
 }
 
 /* body */
@@ -25,6 +26,7 @@ body p{
 body a{
     color: white;
     text-decoration: none;
+    transition: .5s ease;
 }
 
 body a:hover{
@@ -38,6 +40,7 @@ main{
     background-color: #15273F;
     border-radius: 1rem;
     padding: 1.5rem;
+    box-shadow: 0 10px 50px 10px #0b1522;
 }
 
 main img{
@@ -129,6 +132,7 @@ section h1{
     align-items: right;
     justify-content: right;
     flex-direction: row;
+    vertical-align: middle;
 }
 
 
@@ -156,12 +160,19 @@ section h1{
     margin-right: 8px;
 }
 
+.daysleft{
+    text-align: center;
+}
+
 .creator{
     display: flex;
     align-items: left;
     justify-content: left;
     flex-direction: row;
-    margin: 3vh 0 0 0;
+    margin: 2.5vh 0 0 0;
+    vertical-align: middle;
+    border-top: 1px solid #2F4159;
+    padding-top: 15px;
 }
 
 .creatorName a{

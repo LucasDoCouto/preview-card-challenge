@@ -29,6 +29,10 @@ body a{
     transition: .5s ease;
 }
 
+body a:visited{
+    color: white;
+}
+
 body a:hover{
     color: hsl(178, 100%, 50%);
 }

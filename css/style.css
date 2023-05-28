@@ -186,3 +186,17 @@ section h1{
     border-radius: 100%;
     margin: 0 2vh 0 0;
 }
+
+.attribution{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #2F4159;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+.attribution a{
+    color: white;
+}
